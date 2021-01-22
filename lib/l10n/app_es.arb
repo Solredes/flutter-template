@@ -1,0 +1,7 @@
+{
+  "close": "Cerrar",
+  "loadErrorTitle": "Oh no!\n¡Fuiste amonestado!\n\n",
+  "loadErrorText": "¡Lo siento!\nLa página que buscaba no existe",
+  "loadError": "¡Ocurrió un error!\nPor favor, inténtelo de nuevo más tarde",
+  "retry": "Reintentar"
+}

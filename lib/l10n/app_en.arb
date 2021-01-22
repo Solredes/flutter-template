@@ -1,0 +1,22 @@
+{
+  "close": "Close",
+  "@close": {
+    "description": ""
+  },
+  "loadErrorTitle": "Oh no!\nYou were reprimanded!\n\n",
+  "@loadErrorTitle": {
+    "description": ""
+  },
+  "loadErrorText": "Sorry!\nThe page you were looking for does not exist",
+  "@loadErrorText": {
+    "description": ""
+  },
+  "loadError": "An error occurred!\nPlease try again later",
+  "@loadError": {
+    "description": ""
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": ""
+  }
+}
