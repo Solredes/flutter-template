@@ -31,7 +31,7 @@ class AppThemeData {
       buttonColor: colorApp,
       textTheme: ButtonTextTheme.primary,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(8.0),
+        borderRadius: BorderRadius.circular(5.0),
       ),
     ),
   );
@@ -45,7 +45,7 @@ class AppThemeData {
       buttonColor: colorApp,
       textTheme: ButtonTextTheme.primary,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(8.0),
+        borderRadius: BorderRadius.circular(5.0),
       ),
     ),
   );

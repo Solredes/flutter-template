@@ -116,7 +116,7 @@ class Utils {
       backgroundColor: background,
       duration: duration = Duration(milliseconds: 4000),
     );
-    Scaffold.of(context).showSnackBar(snackBar);
+    ScaffoldMessenger.of(context).showSnackBar(snackBar);
   }
 
   /// Displays a progress dialog box

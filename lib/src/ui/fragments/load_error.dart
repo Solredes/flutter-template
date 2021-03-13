@@ -43,12 +43,9 @@ class LoadError extends StatelessWidget {
                           textAlign: TextAlign.center,
                         ),
                       ),
-                      RaisedButton.icon(
+                      ElevatedButton.icon(
                         icon: Icon(Icons.refresh),
                         label: Text(localizations.retry),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(5.0),
-                        ),
                         onPressed: onPressed,
                       ),
                     ],
@@ -76,12 +73,9 @@ class LoadError extends StatelessWidget {
                       textAlign: TextAlign.center,
                     ),
                   ),
-                  RaisedButton.icon(
+                  ElevatedButton.icon(
                     icon: Icon(Icons.refresh),
                     label: Text(localizations.retry),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(5.0),
-                    ),
                     onPressed: onPressed,
                   ),
                 ],
