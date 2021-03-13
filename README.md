@@ -1,16 +1,12 @@
-# flutter_template
+# Flutter template
 
-A new Flutter project.
+Plantilla base para crear aplicativos flutter basados en el patrón BLoC
 
-## Getting Started
+## Empezar
 
-This project is a starting point for a Flutter application.
+Para comenzar descarga el proyecto o clonalo mediante git clone.
 
-A few resources to get you started if this is your first Flutter project:
+> Nota: El modelo `ExampleModel` es un modelo de ejemplo
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para mayor información sobre el patrón BLoC visita:
+[Patrón BLoc en Flutter](http://xurxodev.com/introduccion-al-patron-bloc/)
