@@ -1,12 +1,12 @@
 # Flutter template
 
-Plantilla base para crear aplicativos flutter basados en el patrón BLoC
+Base template to create flutter applications based on the BLoC pattern
 
-## Empezar
+## Get started
 
-Para comenzar descarga el proyecto o clonalo mediante git clone.
+To start download the project or clone using git clone.
 
-> Nota: El modelo `ExampleModel` es un modelo de ejemplo
+> Note: The `ExampleModel` model is an example model
 
-Para mayor información sobre el patrón BLoC visita:
-[Patrón BLoc en Flutter](http://xurxodev.com/introduccion-al-patron-bloc/)
+For more information on the BLoC pattern visit:
+[Patrón BLoc Flutter](http://xurxodev.com/introduccion-al-patron-bloc/)
