@@ -12,7 +12,7 @@ class MovieDetailBloc {
   final _items = BehaviorSubject<Future<ExampleModel>>();
 
   Function(int) get fetchTrailersById => _itemId.sink.add;
-  Stream<Future<ExampleModel>> get movieTrailers => _items.stream;
+  Stream<Future<ExampleModel>> get itemTrailers => _items.stream;
 
   MovieDetailBloc() {
     _itemId.stream.transform(_itemTransformer()).pipe(_items);

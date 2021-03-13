@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart' show timeDilation;
 import 'package:flutter/services.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../utils/app_options.dart';
@@ -53,15 +52,8 @@ class App extends StatelessWidget {
             initialRoute: initialRoute,
             onGenerateRoute: RouteConfiguration.onGenerateRoute,
             locale: AppOptions.of(context).locale,
-            localizationsDelegates: [
-              AppLocalizations.delegate,
-              GlobalMaterialLocalizations.delegate,
-              GlobalWidgetsLocalizations.delegate,
-            ],
-            supportedLocales: [
-              Locale('en', ''),
-              Locale('es', ''),
-            ],
+            localizationsDelegates: AppLocalizations.localizationsDelegates,
+            supportedLocales: AppLocalizations.supportedLocales,
             localeResolutionCallback: (locale, supportedLocales) {
               deviceLocale = locale;
               return locale;

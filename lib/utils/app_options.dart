@@ -99,7 +99,7 @@ class AppOptions {
 }
 
 class ApplyTextOptions extends StatelessWidget {
-  const ApplyTextOptions({@required this.child});
+  const ApplyTextOptions({this.child});
 
   final Widget child;
 
@@ -120,7 +120,7 @@ class ApplyTextOptions extends StatelessWidget {
 class _ModelBindingScope extends InheritedWidget {
   _ModelBindingScope({
     Key key,
-    @required this.modelBindingState,
+    this.modelBindingState,
     Widget child,
   })  : assert(modelBindingState != null),
         super(key: key, child: child);

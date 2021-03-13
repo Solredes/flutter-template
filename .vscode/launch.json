@@ -5,13 +5,21 @@
             "name": "Pruebas",
             "type": "dart",
             "request": "launch",
-            "program": "lib/main_dev.dart"
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "dev"
+            ]
         },
         {
             "name": "Producción",
             "type": "dart",
             "request": "launch",
-            "program": "lib/main_prod.dart"
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--flavor",
+                "prod"
+            ]
         },
     ]
 }

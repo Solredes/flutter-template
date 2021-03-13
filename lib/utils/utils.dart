@@ -5,7 +5,6 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:convert/convert.dart';
 import 'package:crypto/crypto.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:intl/intl.dart';
 
 import '../src/ui/fragments/error_message.dart';
@@ -102,37 +101,6 @@ class Utils {
   static bool isLight(Color color) {
     return color.computeLuminance() >= 0.45;
   }
-
-  /// Show a error toast
-  static void showErrorToast(String message) =>
-      showToast(message, background: Colors.red, color: Colors.white);
-
-  /// Show a warning toast
-  static void showWarningToast(String message) =>
-      showToast(message, background: Colors.amber, color: Colors.white);
-
-  /// Show a success toast
-  static void showSuccessToast(String message) =>
-      showToast(message, background: Colors.green, color: Colors.white);
-
-  /// Shows a Toast
-  ///
-  /// [message] is the message to show
-  /// [length] is the duration to show
-  static void showToast(
-    String message, {
-    Toast length = Toast.LENGTH_SHORT,
-    ToastGravity gravity = ToastGravity.BOTTOM,
-    Color background,
-    Color color,
-  }) =>
-      Fluttertoast.showToast(
-          msg: message,
-          toastLength: length,
-          gravity: gravity,
-          backgroundColor: background,
-          textColor: color,
-          fontSize: 16.0);
 
   /// Show an Snackbar
   ///
